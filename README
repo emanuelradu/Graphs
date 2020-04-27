@@ -1,0 +1,13 @@
+README - Tema 2 PA - Grafuri
+Radu Emanuel Ioan 325CD
+
+Pentru această temă am implementat doar prima problemă.
+Pentru rezolvarea ei mi-am creeat o clasă "Edge" care va reține perechile
+de noduri între care se află muchii în graf.
+Distanțele le citesc în vectorul distances iar distArray este un ArrayList
+folosit pentru a obține indexii, adică numărul nodului specific pentru
+o anumită distanță din graf.
+Pentru a reconstrui graful, sortez vectorul de distanțe crescător și într-un
+for până la numărul de noduri adaug perechi de noduri între care există muchie.
+Cazurile valide de existență a muchiilor în graf sunt atunci cănd distanța este 0
+, iar numărul nodului este 1, distanța este 0 sau 1 față de nodul precedent.
